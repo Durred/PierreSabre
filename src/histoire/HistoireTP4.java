@@ -9,7 +9,7 @@ public class HistoireTP4 {
 	
 	public static void main(String[] args)
 	{
-		/*Humain Zoro = new Humain("Zoro", 15, "saké");
+		Humain Zoro = new Humain("Zoro", 15, "saké");
 		
 		Zoro.parler();
 		Zoro.direBonjour();
@@ -17,7 +17,7 @@ public class HistoireTP4 {
 		Zoro.boire("Super-saké");
 		Zoro.acheter("un Super-saké", 8);
 		Zoro.gagnerArgent(7);
-		Zoro.acheter("un Super-saké", 7);*/
+		Zoro.acheter("un Super-saké", 7);
 		
 		Commercants Marco = new Commercants("Marco", 20);
 		
@@ -31,7 +31,7 @@ public class HistoireTP4 {
 		Yaku.direBonjour();
 		Yaku.extorquer(Marco);
 		
-		Ronin Ussopp = new Ronin("Ussopp", 60, "shochu");
+		Ronin Ussopp = new Ronin("Ussopp", 60, "shochu", 12);
 		
 		Ussopp.direBonjour();
 		Ussopp.donner(Marco);
